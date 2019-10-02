@@ -7,6 +7,8 @@ class RPS
     return "Scissors wins!!!" if p1 == "scissors" && p2 == "paper" || p2 =="scissors" && p1 == "paper"
     return "Paper wins!!!" if p1 == "paper" && p2 == "rock" || p2 =="paper" && p1 == "rock"
 
+    return "error!!" if p1 || p2 != "rock" || "scissors" || "paper"
+
 
   end
 
